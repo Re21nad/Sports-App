@@ -1,0 +1,44 @@
+name: your_project_name
+description: A new Flutter project.
+
+# Prevent accidental publishing
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  provider: ^6.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/profile_pic.png
+    - assets/images/football.png
+    - assets/images/basketball.png
+    - assets/images/tennis.png
+    - assets/images/cricket.png
+    - assets/images/news1.png
+    - assets/images/news2.png
+    - assets/images/news3.png
+    - assets/images/team1.png
+    - assets/images/team2.png
+    - assets/images/team3.png
+    - assets/images/team4.png
+    - assets/images/team5.png
+    - assets/images/team6.png
+    
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1  # Add this line to include flutter_lints
